@@ -8,16 +8,21 @@
     <main class='mx-auto'>
       <form @submit.prevent='onSubmit'>
         <div class='flex items-center space-x-4'>
-          <label class='block'>Personal ID (12 digit)</label>
+          <label
+            for='inp_personal_id'
+            class='block'
+          >Personal ID (12-digit)</label>
           <input
+            id='inp_personal_id'
             v-model='personalId'
-            type='text'
-            minlength='12'
+            type='search'
+            pattern='\d{12}'
             autocomplete='off'
             class='grow focus:ring-indigo-500 focus:border-indigo-500 shadow-sm sm:text-sm border-gray-300 rounded-md'
           >
         </div>
       </form>
+      <hr class='my-4'>
       <ResultDisplay
         v-if='personalInfo'
         :result='personalInfo'
@@ -29,15 +34,24 @@
 <script setup lang='ts'>
 import { ref } from 'vue'
 
-import { PersonalInfo } from '@/models'
+import { Gender, PersonalInfo } from '@/models'
 import ResultDisplay from '@/components/ResultDisplay.vue'
+import { extractBirthplace } from '@/utils'
 
 const personalId = ref('')
 const personalInfo = ref<PersonalInfo | null>(null)
 
-function onSubmit() {
-  if (personalId.value.length < 12) {
+async function onSubmit() {
+  if (personalId.value.length !== 12) {
     return
+  }
+  const birthplace = await extractBirthplace(personalId.value)
+  const randomNumber = personalId.value.slice(6)
+  personalInfo.value = {
+    birthplace,
+    birthyear: 2000,
+    gender: Gender.Male,
+    random_number: randomNumber,
   }
 }
 

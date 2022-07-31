@@ -11,6 +11,8 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "ky": "^0.31.1",
+    "superstruct": "^0.16.0",
     "vue": "^3.2.37"
   },
   "devDependencies": {
