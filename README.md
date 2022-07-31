@@ -3,6 +3,8 @@
 
 Online tool to decode Viet Nam citizen identification, to get some basic information like birthplace, gender.
 
+Try it out: https://vietnam-personal-id.netlify.app
+
 
 ## Development guide
 
