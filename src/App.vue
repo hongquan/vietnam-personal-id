@@ -51,7 +51,7 @@
 </template>
 
 <script setup lang='ts'>
-import { ref } from 'vue'
+import { ref, watch } from 'vue'
 
 import { PersonalInfo } from '@/models'
 import ResultDisplay from '@/components/ResultDisplay.vue'
@@ -75,5 +75,11 @@ async function onSubmit() {
     random_number: randomNumber,
   }
 }
+
+watch(personalId, (newValue, oldValue) => {
+  if (newValue.length < oldValue.length) {
+    personalInfo.value = null
+  }
+})
 
 </script>
