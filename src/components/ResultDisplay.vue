@@ -28,17 +28,55 @@
             {{ result.birthplace }}
           </td>
         </tr>
+        <tr class='bg-white border-b dark:bg-gray-900 dark:border-gray-700'>
+          <th
+            scope='row'
+            class='py-3 px-6'
+          >
+            Birthyear
+          </th>
+          <td class='py-3 px-6'>
+            {{ result.birthyear }}
+          </td>
+        </tr>
+        <tr class='bg-white border-b dark:bg-gray-900 dark:border-gray-700'>
+          <th
+            scope='row'
+            class='py-3 px-6'
+          >
+            Gender
+          </th>
+          <td class='py-3 px-6'>
+            {{ genderDisplay[result.gender] }}
+          </td>
+        </tr>
+        <tr class='bg-white border-b dark:bg-gray-900 dark:border-gray-700'>
+          <th
+            scope='row'
+            class='py-3 px-6'
+          >
+            Random number
+          </th>
+          <td class='py-3 px-6'>
+            {{ result.random_number }}
+          </td>
+        </tr>
       </tbody>
     </table>
   </div>
 </template>
 
 <script setup lang='ts'>
-import { PersonalInfo } from '@/models'
+import { Gender, PersonalInfo } from '@/models'
 
 interface Props {
   result: PersonalInfo
 }
 
 defineProps<Props>()
+
+const genderDisplay = {
+  [Gender.Male]: 'male',
+  [Gender.Female]: 'female',
+}
 </script>

@@ -34,9 +34,9 @@
 <script setup lang='ts'>
 import { ref } from 'vue'
 
-import { Gender, PersonalInfo } from '@/models'
+import { PersonalInfo } from '@/models'
 import ResultDisplay from '@/components/ResultDisplay.vue'
-import { extractBirthplace } from '@/utils'
+import { extractBirthplace, extractGender, extractBirthyear } from '@/utils'
 
 const personalId = ref('')
 const personalInfo = ref<PersonalInfo | null>(null)
@@ -46,11 +46,13 @@ async function onSubmit() {
     return
   }
   const birthplace = await extractBirthplace(personalId.value)
+  const gender = extractGender(personalId.value)
+  const birthyear = extractBirthyear(personalId.value)
   const randomNumber = personalId.value.slice(6)
   personalInfo.value = {
     birthplace,
-    birthyear: 2000,
-    gender: Gender.Male,
+    birthyear,
+    gender,
     random_number: randomNumber,
   }
 }

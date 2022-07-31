@@ -1,11 +1,12 @@
 import ky from 'ky'
 import { mask } from 'superstruct'
-import { ProvinceSchema } from './models'
+import { Gender, ProvinceSchema } from './models'
 
 export async function extractBirthplace(idNumber: string) {
   const code = idNumber.slice(0, 3)
   if (code[0] !== '0') {
-    // TODO: Handle code for foreign countries. Ref: https://thuvienphapluat.vn/van-ban/Quyen-dan-su/Thong-tu-07-2016-TT-BCA-quy-dinh-chi-tiet-luat-can-cuoc-cong-dan-nghi-dinh-137-2015-ND-CP-304996.aspx
+    // TODO: Handle code for foreign countries.
+    // Ref: https://thuvienphapluat.vn/van-ban/Quyen-dan-su/Thong-tu-07-2016-TT-BCA-quy-dinh-chi-tiet-luat-can-cuoc-cong-dan-nghi-dinh-137-2015-ND-CP-304996.aspx
     return '<outside-vietnam>'
   }
   const nCode = parseInt(code)
@@ -21,4 +22,19 @@ export async function extractBirthplace(idNumber: string) {
     console.debug(e)
     return '<lookup-failed>'
   }
+}
+
+export function extractGender(idNumber: string) {
+  const code = parseInt(idNumber[3])
+  return code % 2 ? Gender.Female : Gender.Male
+}
+
+export function extractBirthyear(idNumber: string) {
+  const code = parseInt(idNumber[3])
+  if (isNaN(code)) {
+    return NaN
+  }
+  const base = (Math.floor(code / 2) + 19) * 100
+  const year = parseInt(idNumber.slice(4, 6))
+  return base + year
 }
