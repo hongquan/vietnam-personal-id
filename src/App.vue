@@ -7,7 +7,7 @@
     </header>
     <main class='mx-auto'>
       <form @submit.prevent='onSubmit'>
-        <div class='flex items-center space-x-4'>
+        <div class='sm:flex items-center sm:space-x-4'>
           <label
             for='inp_personal_id'
             class='block'
@@ -18,7 +18,7 @@
             type='search'
             pattern='\d{12}'
             autocomplete='off'
-            class='grow focus:ring-indigo-500 focus:border-indigo-500 shadow-sm sm:text-sm border-gray-300 rounded-md'
+            class='mt-2 sm:mt-0 sm:grow focus:ring-indigo-500 focus:border-indigo-500 shadow-sm sm:text-sm border-gray-300 rounded-md'
           >
         </div>
       </form>
