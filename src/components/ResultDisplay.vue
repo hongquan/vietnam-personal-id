@@ -76,7 +76,7 @@ interface Props {
 defineProps<Props>()
 
 const genderDisplay = {
-  [Gender.Male]: 'male',
-  [Gender.Female]: 'female',
+  [Gender.Male]: 'Male',
+  [Gender.Female]: 'Female',
 }
 </script>
