@@ -1,0 +1,782 @@
+{
+  "101": {
+    "iso": "AF",
+    "official_name": "Islamic Republic of Afghanistan"
+  },
+  "102": {
+    "iso": "EG",
+    "official_name": "Arab Republic of Egypt"
+  },
+  "103": {
+    "iso": "AL",
+    "official_name": "Republic of Albania"
+  },
+  "104": {
+    "iso": "DZ",
+    "official_name": "People's Democratic Republic of Algeria"
+  },
+  "105": {
+    "iso": "AD",
+    "official_name": "Principality of Andorra"
+  },
+  "106": {
+    "iso": "AO",
+    "official_name": "Republic of Angola"
+  },
+  "107": {
+    "iso": "GB",
+    "official_name": "United Kingdom of Great Britain and Northern Ireland"
+  },
+  "108": {
+    "iso": "AG",
+    "official_name": "Antigua and Barbuda"
+  },
+  "109": {
+    "iso": "AT",
+    "official_name": "Republic of Austria"
+  },
+  "110": {
+    "iso": "SA",
+    "official_name": "Kingdom of Saudi Arabia"
+  },
+  "111": {
+    "iso": "AR",
+    "official_name": "Argentine Republic"
+  },
+  "112": {
+    "iso": "AM",
+    "official_name": "Republic of Armenia"
+  },
+  "113": {
+    "iso": "AZ",
+    "official_name": "Republic of Azerbaijan"
+  },
+  "114": {
+    "iso": "AZ",
+    "official_name": "Republic of Azerbaijan"
+  },
+  "115": {
+    "iso": "IN",
+    "official_name": "Republic of India"
+  },
+  "116": {
+    "iso": "BS",
+    "official_name": "Commonwealth of the Bahamas"
+  },
+  "117": {
+    "iso": "BH",
+    "official_name": "Kingdom of Bahrain"
+  },
+  "118": {
+    "iso": "PL",
+    "official_name": "Republic of Poland"
+  },
+  "119": {
+    "iso": "BD",
+    "official_name": "People's Republic of Bangladesh"
+  },
+  "120": {
+    "iso": "BB",
+    "official_name": "Barbados"
+  },
+  "121": {
+    "iso": "BY",
+    "official_name": "Republic of Belarus"
+  },
+  "122": {
+    "iso": "BZ",
+    "official_name": "Belize"
+  },
+  "123": {
+    "iso": "BJ",
+    "official_name": "Republic of Benin"
+  },
+  "124": {
+    "iso": "BT",
+    "official_name": "Kingdom of Bhutan"
+  },
+  "125": {
+    "iso": "BE",
+    "official_name": "Kingdom of Belgium"
+  },
+  "126": {
+    "iso": "BO",
+    "official_name": "Plurinational State of Bolivia"
+  },
+  "127": {
+    "iso": "BA",
+    "official_name": "Republic of Bosnia and Herzegovina"
+  },
+  "128": {
+    "iso": "BW",
+    "official_name": "Republic of Botswana"
+  },
+  "129": {
+    "iso": "PT",
+    "official_name": "Portuguese Republic"
+  },
+  "130": {
+    "iso": "CI",
+    "official_name": "Republic of C\u00f4te d'Ivoire"
+  },
+  "131": {
+    "iso": "BR",
+    "official_name": "Federative Republic of Brazil"
+  },
+  "132": {
+    "iso": "BN",
+    "official_name": "Brunei Darussalam"
+  },
+  "133": {
+    "iso": "BG",
+    "official_name": "Republic of Bulgaria"
+  },
+  "134": {
+    "iso": "BF",
+    "official_name": "Burkina Faso"
+  },
+  "135": {
+    "iso": "BI",
+    "official_name": "Republic of Burundi"
+  },
+  "136": {
+    "iso": "CV",
+    "official_name": "Republic of Cabo Verde"
+  },
+  "137": {
+    "iso": "AE",
+    "official_name": "United Arab Emirates"
+  },
+  "138": {
+    "iso": "CM",
+    "official_name": "Republic of Cameroon"
+  },
+  "139": {
+    "iso": "KH",
+    "official_name": "Kingdom of Cambodia"
+  },
+  "140": {
+    "iso": "CA",
+    "official_name": "Canada"
+  },
+  "141": {
+    "iso": "CL",
+    "official_name": "Republic of Chile"
+  },
+  "142": {
+    "iso": "CO",
+    "official_name": "Republic of Colombia"
+  },
+  "143": {
+    "iso": "KM",
+    "official_name": "Union of the Comoros"
+  },
+  "144": {
+    "iso": "CG",
+    "official_name": "Republic of the Congo"
+  },
+  "145": {
+    "iso": "CD",
+    "official_name": "Democratic Republic of the Congo"
+  },
+  "146": {
+    "iso": "CR",
+    "official_name": "Republic of Costa Rica"
+  },
+  "147": {
+    "iso": "HR",
+    "official_name": "Republic of Croatia"
+  },
+  "148": {
+    "iso": "HR",
+    "official_name": "Republic of Croatia"
+  },
+  "149": {
+    "iso": "CU",
+    "official_name": "Republic of Cuba"
+  },
+  "150": {
+    "iso": "DJ",
+    "official_name": "Republic of Djibouti"
+  },
+  "151": {
+    "iso": "DM",
+    "official_name": "Commonwealth of Dominica"
+  },
+  "152": {
+    "iso": "DO",
+    "official_name": "Dominican Republic"
+  },
+  "153": {
+    "iso": "DK",
+    "official_name": "Kingdom of Denmark"
+  },
+  "154": {
+    "iso": "TL",
+    "official_name": "Democratic Republic of Timor-Leste"
+  },
+  "155": {
+    "iso": "DE",
+    "official_name": "Federal Republic of Germany"
+  },
+  "156": {
+    "iso": "EC",
+    "official_name": "Republic of Ecuador"
+  },
+  "157": {
+    "iso": "SV",
+    "official_name": "Republic of El Salvador"
+  },
+  "158": {
+    "iso": "ER",
+    "official_name": "the State of Eritrea"
+  },
+  "159": {
+    "iso": "EE",
+    "official_name": "Republic of Estonia"
+  },
+  "160": {
+    "iso": "ET",
+    "official_name": "Federal Democratic Republic of Ethiopia"
+  },
+  "161": {
+    "iso": "FJ",
+    "official_name": "Republic of Fiji"
+  },
+  "162": {
+    "iso": "GA",
+    "official_name": "Gabonese Republic"
+  },
+  "163": {
+    "iso": "GM",
+    "official_name": "Republic of the Gambia"
+  },
+  "164": {
+    "iso": "GH",
+    "official_name": "Republic of Ghana"
+  },
+  "165": {
+    "iso": "GD",
+    "official_name": "Grenada"
+  },
+  "166": {
+    "iso": "GE",
+    "official_name": "Georgia"
+  },
+  "167": {
+    "iso": "GT",
+    "official_name": "Republic of Guatemala"
+  },
+  "168": {
+    "iso": "GW",
+    "official_name": "Republic of Guinea-Bissau"
+  },
+  "169": {
+    "iso": "GQ",
+    "official_name": "Republic of Equatorial Guinea"
+  },
+  "170": {
+    "iso": "GN",
+    "official_name": "Republic of Guinea"
+  },
+  "171": {
+    "iso": "GY",
+    "official_name": "Republic of Guyana"
+  },
+  "172": {
+    "iso": "HT",
+    "official_name": "Republic of Haiti"
+  },
+  "173": {
+    "iso": "NL",
+    "official_name": "Kingdom of the Netherlands"
+  },
+  "174": {
+    "iso": "KR",
+    "official_name": "Republic of Korea"
+  },
+  "175": {
+    "iso": "US",
+    "official_name": "United States of America"
+  },
+  "176": {
+    "iso": "HN",
+    "official_name": "Republic of Honduras"
+  },
+  "177": {
+    "iso": "HU",
+    "official_name": "Hungary"
+  },
+  "178": {
+    "iso": "GR",
+    "official_name": "Hellenic Republic"
+  },
+  "179": {
+    "iso": "IS",
+    "official_name": "Republic of Iceland"
+  },
+  "180": {
+    "iso": "ID",
+    "official_name": "Republic of Indonesia"
+  },
+  "181": {
+    "iso": "IR",
+    "official_name": "Islamic Republic of Ira"
+  },
+  "182": {
+    "iso": "IQ",
+    "official_name": "Republic of Iraq"
+  },
+  "183": {
+    "iso": "IE",
+    "official_name": "Ireland"
+  },
+  "184": {
+    "iso": "IL",
+    "official_name": "State of Israel"
+  },
+  "185": {
+    "iso": "JM",
+    "official_name": "Jamaica"
+  },
+  "186": {
+    "iso": "JO",
+    "official_name": "Hashemite Kingdom of Jordan"
+  },
+  "187": {
+    "iso": "KZ",
+    "official_name": "Republic of Kazakhstan"
+  },
+  "188": {
+    "iso": "KE",
+    "official_name": "Republic of Kenya"
+  },
+  "189": {
+    "iso": "KI",
+    "official_name": "Republic of Kiribati"
+  },
+  "190": {
+    "iso": "KW",
+    "official_name": "State of Kuwait"
+  },
+  "191": {
+    "iso": "CY",
+    "official_name": "Republic of Cyprus"
+  },
+  "192": {
+    "iso": "KG",
+    "official_name": "Kyrgyz Republic"
+  },
+  "193": {
+    "iso": "LA",
+    "official_name": "Lao People's Democratic Republic"
+  },
+  "194": {
+    "iso": "LV",
+    "official_name": "Republic of Latvia"
+  },
+  "195": {
+    "iso": "LS",
+    "official_name": "Kingdom of Lesotho"
+  },
+  "196": {
+    "iso": "LB",
+    "official_name": "Lebanese Republic"
+  },
+  "197": {
+    "iso": "LR",
+    "official_name": "Republic of Liberia"
+  },
+  "198": {
+    "iso": "LY",
+    "official_name": "Libya"
+  },
+  "199": {
+    "iso": "LI",
+    "official_name": "Principality of Liechtenstein"
+  },
+  "200": {
+    "iso": "LT",
+    "official_name": "Republic of Lithuania"
+  },
+  "201": {
+    "iso": "LU",
+    "official_name": "Grand Duchy of Luxembourg"
+  },
+  "202": {
+    "iso": "MK",
+    "official_name": "Republic of North Macedonia"
+  },
+  "203": {
+    "iso": "MG",
+    "official_name": "Republic of Madagascar"
+  },
+  "204": {
+    "iso": "MW",
+    "official_name": "Republic of Malawi"
+  },
+  "205": {
+    "iso": "MY",
+    "official_name": "Malaysia"
+  },
+  "206": {
+    "iso": "MV",
+    "official_name": "Republic of Maldives"
+  },
+  "207": {
+    "iso": "ML",
+    "official_name": "Republic of Mali"
+  },
+  "208": {
+    "iso": "MT",
+    "official_name": "Republic of Malta"
+  },
+  "209": {
+    "iso": "MA",
+    "official_name": "Kingdom of Morocco"
+  },
+  "210": {
+    "iso": "MH",
+    "official_name": "Republic of the Marshall Islands"
+  },
+  "211": {
+    "iso": "MR",
+    "official_name": "Islamic Republic of Mauritania"
+  },
+  "212": {
+    "iso": "MU",
+    "official_name": "Republic of Mauritius"
+  },
+  "213": {
+    "iso": "MX",
+    "official_name": "United Mexican States"
+  },
+  "214": {
+    "iso": "FM",
+    "official_name": "Federated States of Micronesia"
+  },
+  "215": {
+    "iso": "MD",
+    "official_name": "Republic of Moldova"
+  },
+  "216": {
+    "iso": "MC",
+    "official_name": "Principality of Monaco"
+  },
+  "217": {
+    "iso": "MN",
+    "official_name": "Mongolia"
+  },
+  "218": {
+    "iso": "ME",
+    "official_name": "Montenegro"
+  },
+  "219": {
+    "iso": "MZ",
+    "official_name": "Republic of Mozambique"
+  },
+  "220": {
+    "iso": "MM",
+    "official_name": "Republic of Myanmar"
+  },
+  "221": {
+    "iso": "NA",
+    "official_name": "Republic of Namibia"
+  },
+  "222": {
+    "iso": "SS",
+    "official_name": "Republic of South Sudan"
+  },
+  "223": {
+    "iso": "ZA",
+    "official_name": "Republic of South Africa"
+  },
+  "224": {
+    "iso": "NR",
+    "official_name": "Republic of Nauru"
+  },
+  "225": {
+    "iso": "NO",
+    "official_name": "Kingdom of Norway"
+  },
+  "226": {
+    "iso": "NP",
+    "official_name": "Federal Democratic Republic of Nepal"
+  },
+  "227": {
+    "iso": "NZ",
+    "official_name": "New Zealand"
+  },
+  "228": {
+    "iso": "NI",
+    "official_name": "Republic of Nicaragua"
+  },
+  "229": {
+    "iso": "NE",
+    "official_name": "Republic of the Niger"
+  },
+  "230": {
+    "iso": "NG",
+    "official_name": "Federal Republic of Nigeria"
+  },
+  "231": {
+    "iso": "RU",
+    "official_name": "Russian Federation"
+  },
+  "232": {
+    "iso": "JP",
+    "official_name": "Japan"
+  },
+  "233": {
+    "iso": "OM",
+    "official_name": "Sultanate of Oman"
+  },
+  "234": {
+    "iso": "PK",
+    "official_name": "Islamic Republic of Pakistan"
+  },
+  "235": {
+    "iso": "PW",
+    "official_name": "Republic of Palau"
+  },
+  "236": {
+    "iso": "PA",
+    "official_name": "Republic of Panama"
+  },
+  "237": {
+    "iso": "PG",
+    "official_name": "Independent State of Papua New Guinea"
+  },
+  "238": {
+    "iso": "PY",
+    "official_name": "Republic of Paraguay"
+  },
+  "239": {
+    "iso": "PE",
+    "official_name": "Republic of Peru"
+  },
+  "240": {
+    "iso": "FR",
+    "official_name": "French Republic"
+  },
+  "241": {
+    "iso": "FI",
+    "official_name": "Republic of Finland"
+  },
+  "242": {
+    "iso": "PH",
+    "official_name": "Republic of the Philippines"
+  },
+  "243": {
+    "iso": "QA",
+    "official_name": "State of Qatar"
+  },
+  "244": {
+    "iso": "RO",
+    "official_name": "Romania"
+  },
+  "245": {
+    "iso": "RW",
+    "official_name": "Rwandese Republic"
+  },
+  "246": {
+    "iso": "KN",
+    "official_name": "Saint Kitts and Nevis"
+  },
+  "247": {
+    "iso": "LC",
+    "official_name": "Saint Lucia"
+  },
+  "248": {
+    "iso": "VC",
+    "official_name": "Saint Vincent and the Grenadines"
+  },
+  "249": {
+    "iso": "WS",
+    "official_name": "Independent State of Samoa"
+  },
+  "250": {
+    "iso": "SM",
+    "official_name": "Republic of San Marino"
+  },
+  "251": {
+    "iso": "ST",
+    "official_name": "Democratic Republic of S\u00e3o Tom\u00e9 and Pr\u00edncipe"
+  },
+  "252": {
+    "iso": "CZ",
+    "official_name": "Czech Republic"
+  },
+  "253": {
+    "iso": "SN",
+    "official_name": "Republic of Senegal"
+  },
+  "254": {
+    "iso": "RS",
+    "official_name": "Republic of Serbia"
+  },
+  "255": {
+    "iso": "SC",
+    "official_name": "Republic of Seychelles"
+  },
+  "256": {
+    "iso": "SL",
+    "official_name": "Republic of Sierra Leone"
+  },
+  "257": {
+    "iso": "SG",
+    "official_name": "Republic of Singapore"
+  },
+  "258": {
+    "iso": "SK",
+    "official_name": "Slovak Republic"
+  },
+  "259": {
+    "iso": "SI",
+    "official_name": "Republic of Slovenia"
+  },
+  "260": {
+    "iso": "SB",
+    "official_name": "Solomon Islands"
+  },
+  "261": {
+    "iso": "SO",
+    "official_name": "Federal Republic of Somalia"
+  },
+  "262": {
+    "iso": "LK",
+    "official_name": "Democratic Socialist Republic of Sri Lanka"
+  },
+  "263": {
+    "iso": "SD",
+    "official_name": "Republic of the Sudan"
+  },
+  "264": {
+    "iso": "SR",
+    "official_name": "Republic of Suriname"
+  },
+  "265": {
+    "iso": "SZ",
+    "official_name": "Kingdom of Eswatini"
+  },
+  "266": {
+    "iso": "SY",
+    "official_name": "Syrian Arab Republic"
+  },
+  "267": {
+    "iso": "TJ",
+    "official_name": "Republic of Tajikistan"
+  },
+  "268": {
+    "iso": "TZ",
+    "official_name": "United Republic of Tanzania"
+  },
+  "269": {
+    "iso": "ES",
+    "official_name": "Kingdom of Spain"
+  },
+  "270": {
+    "iso": "TD",
+    "official_name": "Republic of Chad"
+  },
+  "271": {
+    "iso": "TH",
+    "official_name": "Kingdom of Thailand"
+  },
+  "272": {
+    "iso": "TR",
+    "official_name": "Republic of Turkey"
+  },
+  "273": {
+    "iso": "SE",
+    "official_name": "Kingdom of Sweden"
+  },
+  "274": {
+    "iso": "CH",
+    "official_name": "Swiss Confederation"
+  },
+  "275": {
+    "iso": "TG",
+    "official_name": "Togolese Republic"
+  },
+  "276": {
+    "iso": "TO",
+    "official_name": "Kingdom of Tonga"
+  },
+  "277": {
+    "iso": "KP",
+    "official_name": "Democratic People's Republic of Korea"
+  },
+  "278": {
+    "iso": "TT",
+    "official_name": "Republic of Trinidad and Tobago"
+  },
+  "279": {
+    "iso": "CN",
+    "official_name": "People's Republic of China"
+  },
+  "280": {
+    "iso": "CF",
+    "official_name": "Central African Republic"
+  },
+  "281": {
+    "iso": "TN",
+    "official_name": "Republic of Tunisia"
+  },
+  "282": {
+    "iso": "TM",
+    "official_name": "Turkmenistan"
+  },
+  "283": {
+    "iso": "TV",
+    "official_name": "Tuvalu"
+  },
+  "284": {
+    "iso": "AU",
+    "official_name": "Australia"
+  },
+  "285": {
+    "iso": "UG",
+    "official_name": "Republic of Uganda"
+  },
+  "286": {
+    "iso": "UA",
+    "official_name": "Ukraine"
+  },
+  "287": {
+    "iso": "UY",
+    "official_name": "Eastern Republic of Uruguay"
+  },
+  "288": {
+    "iso": "UZ",
+    "official_name": "Republic of Uzbekistan"
+  },
+  "289": {
+    "iso": "VU",
+    "official_name": "Republic of Vanuatu"
+  },
+  "290": {
+    "iso": "VA",
+    "official_name": "Vatican City State"
+  },
+  "291": {
+    "iso": "VE",
+    "official_name": "Bolivarian Republic of Venezuela"
+  },
+  "292": {
+    "iso": "IT",
+    "official_name": "Italian Republic"
+  },
+  "293": {
+    "iso": "YE",
+    "official_name": "Republic of Yemen"
+  },
+  "294": {
+    "iso": "ZM",
+    "official_name": "Republic of Zambia"
+  },
+  "295": {
+    "iso": "ZW",
+    "official_name": "Republic of Zimbabwe"
+  }
+}
