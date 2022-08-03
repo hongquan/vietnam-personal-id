@@ -1,58 +1,58 @@
 Afghanistan,101,AF,Islamic Republic of Afghanistan
-Ai Cập,102,,
+Ai Cập,102,EG,Arab Republic of Egypt
 Albania,103,AL,Republic of Albania
-Algérie (An-giê-ri),104,,
+Algérie (An-giê-ri),104,DZ,People's Democratic Republic of Algeria
 Andorra (An-đô-ra),105,AD,Principality of Andorra
 Angola (Ăng-gô-la),106,AO,Republic of Angola
-Vương quốc Liên hiệp Anh và Bắc Ireland,107,,
-Antigua và Barbuda (An-ti-goa và Bác-bu-da),108,,
-Áo,109,,
-Ả Rập Saudi (Ả Rập Xê-út),110,,
+Vương quốc Liên hiệp Anh và Bắc Ireland,107,GB,United Kingdom of Great Britain and Northern Ireland
+Antigua và Barbuda (An-ti-goa và Bác-bu-da),108,AG,Antigua and Barbuda
+Áo,109,AT,Republic of Austria
+Ả Rập Saudi (Ả Rập Xê-út),110,SA,Kingdom of Saudi Arabia
 Argentina,111,AR,Argentine Republic
 Armenia (Ác-mê-ni-a),112,AM,Republic of Armenia
 Azerbaijan (A-giéc-bai-gian),113,AZ,Republic of Azerbaijan
-Cộng hòa Azerbaijan,114,,
-Cộng hòa Ấn Độ,115,,
+Cộng hòa Azerbaijan,114,AZ,Republic of Azerbaijan
+Cộng hòa Ấn Độ,115,IN,Republic of India
 Bahamas (Ba-ha-mát),116,BS,Commonwealth of the Bahamas
 Bahrain (Ba-ranh),117,BH,Kingdom of Bahrain
-Ba Lan,118,,
+Ba Lan,118,PL,Republic of Poland
 Bangladesh (Băng-la-đét),119,BD,People's Republic of Bangladesh
 Barbados (Bác-ba-đốt),120,BB,Barbados
 Belarus (Bê-la-rút),121,BY,Republic of Belarus
 Belize (Bê-li-xê),122,BZ,Belize
 Benin (Bê-nanh),123,BJ,Republic of Benin
 Bhutan (Bu-tan),124,BT,Kingdom of Bhutan
-Bỉ,125,,
+Bỉ,125,BE,Kingdom of Belgium
 Bolivia (Bô-li-vi-a),126,BO,Plurinational State of Bolivia
-Bosna và Hercegovina (Bốt-xni-a và Héc-dê-gô-vi-na),127,,
+Bosna và Hercegovina (Bốt-xni-a và Héc-dê-gô-vi-na),127,BA,Republic of Bosnia and Herzegovina
 Botswana,128,BW,Republic of Botswana
-Bồ Đào Nha,129,,
-Bờ Biển Ngà (Cốt-đi-voa),130,,
-Brasil (Bra-xin),131,,
-Brunei (Bru-nây),132,,
+Bồ Đào Nha,129,PT,Portuguese Republic
+Bờ Biển Ngà (Cốt-đi-voa),130,CI,Republic of Côte d'Ivoire
+Brasil (Bra-xin),131,BR,Federative Republic of Brazil
+Brunei (Bru-nây),132,BN,Brunei Darussalam
 Bulgaria (Bungari),133,BG,Republic of Bulgaria
 Burkina Faso (Buốc-ki-na Pha-xô),134,BF,Burkina Faso
 Burundi,135,BI,Republic of Burundi
 Cabo Verde (Cáp Ve),136,CV,Republic of Cabo Verde
-Các Tiểu Vương quốc Ả Rập Thống nhất,137,,
+Các Tiểu Vương quốc Ả Rập Thống nhất,137,AE,United Arab Emirates
 Cameroon (Ca-mơ-run),138,CM,Republic of Cameroon
-Campuchia,139,,
+Campuchia,139,KH,Kingdom of Cambodia
 Canada (Ca-na-đa; Gia Nã Đại),140,CA,Canada
 Chile (Chi-lê),141,CL,Republic of Chile
 Colombia (Cô-lôm-bi-a),142,CO,Republic of Colombia
 Comoros (Cô-mo),143,KM,Union of the Comoros
-Cộng hòa Congo (Công-gô; Congo-Brazzaville),144,,
-Cộng hòa Dân chủ Congo (Congo-Kinshasa),145,,
+Cộng hòa Congo (Công-gô; Congo-Brazzaville),144,CG,Republic of the Congo
+Cộng hòa Dân chủ Congo (Congo-Kinshasa),145,CD,Democratic Republic of the Congo
 Costa Rica (Cốt-xta Ri-ca),146,CR,Republic of Costa Rica
 Croatia (Crô-a-ti-a),147,HR,Republic of Croatia
-Cộng hòa Croatia,148,,
+Cộng hòa Croatia,148,HR,Republic of Croatia
 Cuba (Cu-ba),149,CU,Republic of Cuba
 Djibouti (Gi-bu-ti),150,DJ,Republic of Djibouti
 Dominica (Đô-mi-ni-ca),151,DM,Commonwealth of Dominica
-Cộng hòa Dominicana (Đô-mi-ni-ca-na),152,,
-Đan Mạch,153,,
-Đông Timor (Ti-mo Lex-te),154,,
-Đức,155,,
+Cộng hòa Dominicana (Đô-mi-ni-ca-na),152,DO,Dominican Republic
+Đan Mạch,153,DK,Kingdom of Denmark
+Đông Timor (Ti-mo Lex-te),154,TL,Democratic Republic of Timor-Leste
+Đức,155,DE,Federal Republic of Germany
 Ecuador (Ê-cu-a-đo),156,EC,Republic of Ecuador
 El Salvador (En Xan-va-đo),157,SV,Republic of El Salvador
 Eritrea (Ê-ri-tơ-ri-a),158,ER,the State of Eritrea
@@ -63,22 +63,22 @@ Gabon (Ga-bông),162,GA,Gabonese Republic
 Gambia (Găm-bi-a),163,GM,Republic of the Gambia
 Ghana (Ga-na),164,GH,Republic of Ghana
 Grenada (Grê-na-đa),165,GD,Grenada
-Gruzia (Gru-di-a),166,,
+Gruzia (Gru-di-a),166,GE,Georgia
 Guatemala (Goa-tê-ma-la),167,GT,Republic of Guatemala
 Guinea-Bissau (Ghi-nê Bít-xao),168,GW,Republic of Guinea-Bissau
-Guinea Xích Đạo (Ghi-nê Xích Đạo),169,,
+Guinea Xích Đạo (Ghi-nê Xích Đạo),169,GQ,Republic of Equatorial Guinea
 Guinea (Ghi-nê),170,GN,Republic of Guinea
 Guyana (Gai-a-na),171,GY,Republic of Guyana
 Haiti (Ha-i-ti),172,HT,Republic of Haiti
-Hà Lan (Hòa Lan),173,,
-Hàn Quốc (Nam Hàn),174,,
-Hoa Kỳ (Mỹ),175,,
+Hà Lan (Hòa Lan),173,NL,Kingdom of the Netherlands
+Hàn Quốc (Nam Hàn),174,KR,Republic of Korea
+Hoa Kỳ (Mỹ),175,US,United States of America
 Honduras (Hôn-đu-rát) (Ôn-đu-rát),176,HN,Republic of Honduras
 Hungary (Hung-ga-ri),177,HU,Hungary
-Hy Lạp,178,,
+Hy Lạp,178,GR,Hellenic Republic
 Iceland (Ai xơ len),179,IS,Republic of Iceland
 Indonesia (In-đô-nê-xi-a),180,ID,Republic of Indonesia
-Iran,181,,
+Iran,181,IR,Islamic Republic of Ira
 Iraq (I-rắc),182,IQ,Republic of Iraq
 Ireland (Ai-len),183,IE,Ireland
 Israel (I-xra-en),184,IL,State of Israel
@@ -88,48 +88,48 @@ Kazakhstan (Ca-dắc-xtan),187,KZ,Republic of Kazakhstan
 Kenya (Kê-nhi-a),188,KE,Republic of Kenya
 Kiribati,189,KI,Republic of Kiribati
 Kuwait (Cô-oét),190,KW,State of Kuwait
-Síp,191,,
+Síp,191,CY,Republic of Cyprus
 Kyrgyzstan (Cư-rơ-gư-xtan),192,KG,Kyrgyz Republic
-Lào,193,,
+Lào,193,LA,Lao People's Democratic Republic
 Latvia (Lat-vi-a),194,LV,Republic of Latvia
 Lesotho (Lê-xô-thô),195,LS,Kingdom of Lesotho
-Li ban (Li-băng),196,,
+Li ban (Li-băng),196,LB,Lebanese Republic
 Liberia (Li-bê-ri-a),197,LR,Republic of Liberia
 Libya (Li-bi),198,LY,Libya
 Liechtenstein (Lích-ten-xtai),199,LI,Principality of Liechtenstein
-Litva (Lít-va),200,,
+Litva (Lít-va),200,LT,Republic of Lithuania
 Luxembourg (Lúc-xem-bua),201,LU,Grand Duchy of Luxembourg
-Macedonia (Mã Cơ Đốn) (Ma-xê-đô-ni-a),202,,
+Macedonia (Mã Cơ Đốn) (Ma-xê-đô-ni-a),202,MK,Republic of North Macedonia
 Madagascar,203,MG,Republic of Madagascar
 Malawi (Ma-la-uy),204,MW,Republic of Malawi
 Malaysia (Mã Lai Tây Á) (Ma-lay-xi-a),205,MY,Malaysia
 Maldives (Man-di-vơ),206,MV,Republic of Maldives
 Mali,207,ML,Republic of Mali
 Malta (Man-ta),208,MT,Republic of Malta
-Maroc,209,,
-Quần đảo Marshall,210,,
-Mauritanie (Mô-ri-ta-ni),211,,
+Maroc,209,MA,Kingdom of Morocco
+Quần đảo Marshall,210,MH,Republic of the Marshall Islands
+Mauritanie (Mô-ri-ta-ni),211,MR,Islamic Republic of Mauritania
 Mauritius (Mô-ri-xơ),212,MU,Republic of Mauritius
 Mexico (Mê-hi-cô),213,MX,United Mexican States
-Micronesia (Mi-crô-nê-di),214,,
+Micronesia (Mi-crô-nê-di),214,FM,Federated States of Micronesia
 Moldova (Môn-đô-va),215,MD,Republic of Moldova
 Monaco (Mô-na-cô),216,MC,Principality of Monaco
-Mông Cổ,217,,
+Mông Cổ,217,MN,Mongolia
 Montenegro (Môn-tê-nê-grô),218,ME,Montenegro
 Mozambique (Mô-dăm-bích),219,MZ,Republic of Mozambique
-Myanma (Mi-an-ma),220,,
+Myanma (Mi-an-ma),220,MM,Republic of Myanmar
 Namibia (Na-mi-bi-a),221,NA,Republic of Namibia
-Nam Sudan,222,,
-Nam Phi,223,,
+Nam Sudan,222,SS,Republic of South Sudan
+Nam Phi,223,ZA,Republic of South Africa
 Nauru (Nau-ru),224,NR,Republic of Nauru
-Na Uy,225,,
+Na Uy,225,NO,Kingdom of Norway
 Nepal (Nê-pan),226,NP,Federal Democratic Republic of Nepal
 New Zealand (Niu Di-lân) (Tân Tây Lan),227,NZ,New Zealand
 Nicaragua (Ni-ca-ra-goa),228,NI,Republic of Nicaragua
 Niger (Ni-giê),229,NE,Republic of the Niger
 Nigeria (Ni-giê-ri-a),230,NG,Federal Republic of Nigeria
-Nga,231,,
-Nhật Bản,232,,
+Nga,231,RU,Russian Federation
+Nhật Bản,232,JP,Japan
 Oman (Ô-man),233,OM,Sultanate of Oman
 Pakistan (Pa-kít-xtan),234,PK,Islamic Republic of Pakistan
 Palau (Pa-lau),235,PW,Republic of Palau
@@ -137,59 +137,59 @@ Panama (Pa-na-ma),236,PA,Republic of Panama
 Papua New Guinea (Pa-pua Niu Ghi-nê),237,PG,Independent State of Papua New Guinea
 Paraguay (Pa-ra-goay),238,PY,Republic of Paraguay
 Peru (Pê-ru),239,PE,Republic of Peru
-Pháp (Pháp Lan Tây),240,,
-Phần Lan,241,,
+Pháp (Pháp Lan Tây),240,FR,French Republic
+Phần Lan,241,FI,Republic of Finland
 Philippines (Phi-líp-pin),242,PH,Republic of the Philippines
 Qatar (Ca-ta),243,QA,State of Qatar
 "Romania (Ru-ma-ni, Lỗ Ma Ni)",244,RO,Romania
 Rwanda (Ru-an-đa),245,RW,Rwandese Republic
-Saint Kitts và Nevis (Xanh Kít và Nê-vít),246,,
+Saint Kitts và Nevis (Xanh Kít và Nê-vít),246,KN,Saint Kitts and Nevis
 Saint Lucia (San-ta Lu-xi-a),247,LC,Saint Lucia
-Saint Vincent và Grenadines (Xanh Vin-xen và Grê-na-din),248,,
+Saint Vincent và Grenadines (Xanh Vin-xen và Grê-na-din),248,VC,Saint Vincent and the Grenadines
 Samoa (Xa-moa),249,WS,Independent State of Samoa
 San Marino (San Ma-ri-nô),250,SM,Republic of San Marino
-São Tomé và Príncipe (Sao Tô-mê và Prin-xi-pê),251,,
-Séc (Tiệp),252,,
-Sénégal (Xê-nê-gan),253,,
+São Tomé và Príncipe (Sao Tô-mê và Prin-xi-pê),251,ST,Democratic Republic of São Tomé and Príncipe
+Séc (Tiệp),252,CZ,Czech Republic
+Sénégal (Xê-nê-gan),253,SN,Republic of Senegal
 Serbia (Xéc-bi-a),254,RS,Republic of Serbia
 Seychelles (Xây-sen),255,SC,Republic of Seychelles
 Sierra Leone (Xi-ê-ra Lê-ôn),256,SL,Republic of Sierra Leone
 Singapore (Xinh-ga-po),257,SG,Republic of Singapore
 Slovakia (Xlô-va-ki-a),258,SK,Slovak Republic
 Slovenia (Xlô-ven-ni-a),259,SI,Republic of Slovenia
-Solomon (Xô-lô-môn),260,,
+Solomon (Xô-lô-môn),260,SB,Solomon Islands
 Somalia (Xô-ma-li),261,SO,Federal Republic of Somalia
 Sri Lanka (Xri Lan-ca),262,LK,Democratic Socialist Republic of Sri Lanka
 Sudan (Xu-đăng),263,SD,Republic of the Sudan
 Suriname (Xu-ri-nam),264,SR,Republic of Suriname
-Swaziland (Xoa-di-len),265,,
-Syria (Xi-ri),266,,
+Swaziland (Xoa-di-len),265,SZ,Kingdom of Eswatini
+Syria (Xi-ri),266,SY,Syrian Arab Republic
 Tajikistan (Tát-gi-kít-xtan),267,TJ,Republic of Tajikistan
 Tanzania (Tan-da-ni-a),268,TZ,United Republic of Tanzania
-Tây Ban Nha,269,,
-Tchad (Sát),270,,
-Thái Lan,271,,
-Thổ Nhĩ Kỳ,272,,
-Thụy Điển,273,,
-Thụy Sĩ (Thụy Sỹ),274,,
+Tây Ban Nha,269,ES,Kingdom of Spain
+Tchad (Sát),270,TD,Republic of Chad
+Thái Lan,271,TH,Kingdom of Thailand
+Thổ Nhĩ Kỳ,272,TR,Republic of Turkey
+Thụy Điển,273,SE,Kingdom of Sweden
+Thụy Sĩ (Thụy Sỹ),274,CH,Swiss Confederation
 Togo (Tô-gô),275,TG,Togolese Republic
 Tonga (Tông-ga),276,TO,Kingdom of Tonga
-Triều Tiên,277,,
-Trinidad và Tobago (Tri-ni-đát và Tô-ba-gô),278,,
-Trung Quốc,279,,
-Trung Phi,280,,
+Triều Tiên,277,KP,Democratic People's Republic of Korea
+Trinidad và Tobago (Tri-ni-đát và Tô-ba-gô),278,TT,Republic of Trinidad and Tobago
+Trung Quốc,279,CN,People's Republic of China
+Trung Phi,280,CF,Central African Republic
 Tunisia (Tuy-ni-di),281,TN,Republic of Tunisia
 Turkmenistan (Tuốc-mê-ni-xtan),282,TM,Turkmenistan
 Tuvalu,283,TV,Tuvalu
-Úc (Ốt-xrây-li-a),284,,
+Úc (Ốt-xrây-li-a),284,AU,Australia
 Uganda (U-gan-đa),285,UG,Republic of Uganda
-Ukraina (U-crai-na),286,,
+Ukraina (U-crai-na),286,UA,Ukraine
 Uruguay (U-ru-goay),287,UY,Eastern Republic of Uruguay
 Uzbekistan (U-dơ-bê-kít-xtan),288,UZ,Republic of Uzbekistan
 Vanuatu (Va-nu-a-tu),289,VU,Republic of Vanuatu
-Thành Vatican (Va-ti-căng)/Tòa Thánh,290,,
+Thành Vatican (Va-ti-căng)/Tòa Thánh,290,VA,Vatican City State
 Venezuela (Vê-nê-xu(y)-ê-la),291,VE,Bolivarian Republic of Venezuela
-Ý (I-ta-li-a),292,,
+Ý (I-ta-li-a),292,IT,Italian Republic
 Yemen (Y-ê-men),293,YE,Republic of Yemen
 Zambia (Dăm-bi-a),294,ZM,Republic of Zambia
 Zimbabwe (Dim-ba-bu-ê),295,ZW,Republic of Zimbabwe
