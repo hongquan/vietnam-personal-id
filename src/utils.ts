@@ -1,13 +1,23 @@
 import ky from 'ky'
 import { mask } from 'superstruct'
 import { Gender, ProvinceSchema } from './models'
+import countries from './countries.json'
+
+interface Country {
+  iso: string,
+  official_name: string,
+}
 
 export async function extractBirthplace(idNumber: string) {
   const code = idNumber.slice(0, 3)
   if (code[0] !== '0') {
     // TODO: Handle code for foreign countries.
     // Ref: https://thuvienphapluat.vn/van-ban/Quyen-dan-su/Thong-tu-07-2016-TT-BCA-quy-dinh-chi-tiet-luat-can-cuoc-cong-dan-nghi-dinh-137-2015-ND-CP-304996.aspx
-    return '<outside-vietnam>'
+    const data = (countries as Record<string, Country>)[code]
+    if (!data) {
+      return '<invalid>'
+    }
+    return data.official_name
   }
   const nCode = parseInt(code)
   if (isNaN(nCode)) {
