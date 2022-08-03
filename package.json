@@ -2,7 +2,7 @@
   "name": "vietnam-personal-id",
   "private": true,
   "license": "MIT",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -11,8 +11,6 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "ky": "^0.31.1",
-    "superstruct": "^0.16.0",
     "vue": "^3.2.37"
   },
   "devDependencies": {

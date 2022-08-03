@@ -2,9 +2,9 @@
 
 import json
 from pathlib import Path
-from traceback import print_tb
 
 import click
+import httpx
 import tablib
 import pycountry
 
@@ -46,7 +46,7 @@ def auto_fill_iso():
 
 @cli.command
 @click.argument('infile', type=click.Path(exists=True))
-def gen_json(infile: str):
+def gen_countries_json(infile: str):
     """Generate JSON from CSV file INFILE"""
     csv_path = Path(infile)
     data = {}
@@ -59,6 +59,14 @@ def gen_json(infile: str):
             'official_name': row[3]
         }
     click.echo(json.dumps(data, indent=2))
+
+
+@cli.command
+def gen_provinces_json():
+    resp = httpx.get('https://provinces.open-api.vn/api/')
+    indata = resp.json()
+    outdata = {row['code']: row['name'] for row in indata}
+    click.echo(json.dumps(outdata, indent=2))
 
 if __name__ == '__main__':
     cli()
