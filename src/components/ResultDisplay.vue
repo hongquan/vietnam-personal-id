@@ -22,7 +22,7 @@
             scope='row'
             class='py-3 px-6'
           >
-            Birthplace
+            Birth registration place
           </th>
           <td class='py-3 px-6'>
             {{ result.birthplace }}
