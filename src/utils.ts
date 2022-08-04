@@ -7,7 +7,7 @@ interface Country {
   official_name: string,
 }
 
-export async function extractBirthplace(idNumber: string) {
+export function extractBirthplace(idNumber: string) {
   const code = idNumber.slice(0, 3)
   const nCode = parseInt(code)
   if (isNaN(nCode)) {

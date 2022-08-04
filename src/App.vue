@@ -60,11 +60,11 @@ import { extractBirthplace, extractGender, extractBirthyear } from '@/utils'
 const personalId = ref('')
 const personalInfo = ref<PersonalInfo | null>(null)
 
-async function onSubmit() {
+function onSubmit() {
   if (personalId.value.length !== 12) {
     return
   }
-  const birthplace = await extractBirthplace(personalId.value)
+  const birthplace = extractBirthplace(personalId.value)
   const gender = extractGender(personalId.value)
   const birthyear = extractBirthyear(personalId.value)
   const randomNumber = personalId.value.slice(6)
