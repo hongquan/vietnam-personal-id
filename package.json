@@ -13,6 +13,7 @@
   "dependencies": {
     "@fluent/bundle": "^0.17.1",
     "fluent-vue": "^3.1.0",
+    "get-user-locale": "^1.5.1",
     "vue": "^3.2.37"
   },
   "devDependencies": {

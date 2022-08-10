@@ -60,7 +60,8 @@ author = Tác giả
 </fluent>
 
 <script setup lang='ts'>
-import { ref, watch } from 'vue'
+import { onBeforeMount, ref, watch } from 'vue'
+import { getUserLocale } from 'get-user-locale'
 
 import { Language, PersonalInfo } from '@/models'
 import HeaderBar from '@/components/HeaderBar.vue'
@@ -87,6 +88,14 @@ function onSubmit() {
     random_number: randomNumber,
   }
 }
+
+onBeforeMount(() => {
+  const userLocale = getUserLocale()
+  if (userLocale.startsWith(Language.VI)) {
+    selectedLocale.value = Language.VI
+    preferLocale(Language.VI)
+  }
+})
 
 watch(personalId, (newValue, oldValue) => {
   if (newValue.length < oldValue.length) {
