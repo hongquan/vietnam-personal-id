@@ -22,6 +22,16 @@
     minimatch "^3.1.2"
     strip-json-comments "^3.1.1"
 
+"@fluent/bundle@^0.17.1":
+  version "0.17.1"
+  resolved "https://registry.yarnpkg.com/@fluent/bundle/-/bundle-0.17.1.tgz#239388f55f115dca593f268d48a5ab8936dc9556"
+  integrity sha512-CRFNT9QcSFAeFDneTF59eyv3JXFGhIIN4boUO2y22YmsuuKLyDk+N1I/NQUYz9Ab63e6V7T6vItoZIG/2oOOuw==
+
+"@fluent/sequence@^0.7.0":
+  version "0.7.0"
+  resolved "https://registry.yarnpkg.com/@fluent/sequence/-/sequence-0.7.0.tgz#2fbfa872e87293cca209ba4a586d1a8fbaa2e5c4"
+  integrity sha512-aH1xMwX8DFvKOQSKUKpB3zMsnJ2rRKt7MajLNnx/r3V3DWDo2nzEfm21d7UyOgwEckPIjPmhxdW1MEmsGUxYIw==
+
 "@humanwhocodes/config-array@^0.9.2":
   version "0.9.5"
   resolved "https://registry.yarnpkg.com/@humanwhocodes/config-array/-/config-array-0.9.5.tgz#2cbaf9a89460da24b5ca6531b8bbfc23e1df50c7"
@@ -424,6 +434,11 @@ browserslist@^4.21.3:
     electron-to-chromium "^1.4.202"
     node-releases "^2.0.6"
     update-browserslist-db "^1.0.5"
+
+cached-iterable@^0.3.0:
+  version "0.3.0"
+  resolved "https://registry.yarnpkg.com/cached-iterable/-/cached-iterable-0.3.0.tgz#2618204549e9c5dd102102a6e7e50af6adb77df8"
+  integrity sha512-MDqM6TpBVebZD4UDtmlFp8EjVtRcsB6xt9aRdWymjk0fWVUUGgmt/V7o0H0gkI2Tkvv8B0ucjidZm4mLosdlWw==
 
 callsites@^3.0.0:
   version "3.1.0"
@@ -879,6 +894,16 @@ flatted@^3.1.0:
   version "3.2.6"
   resolved "https://registry.yarnpkg.com/flatted/-/flatted-3.2.6.tgz#022e9218c637f9f3fc9c35ab9c9193f05add60b2"
   integrity sha512-0sQoMh9s0BYsm+12Huy/rkKxVu4R1+r96YX5cG44rHV0pQ6iC3Q+mkoMFaGWObMFYQxCVT+ssG1ksneA2MI9KQ==
+
+fluent-vue@^3.1.0:
+  version "3.1.0"
+  resolved "https://registry.yarnpkg.com/fluent-vue/-/fluent-vue-3.1.0.tgz#ae76d8b3de0f7482e36f61d251c4c08355eb73b1"
+  integrity sha512-VpZ2z6qCBq1WYwOqTUt9j3OCNP5oGVbtkQfEj4EdqAjE2fRWdHyHKq4HQV1guwlbpC5T2pP4g+vNlHGv0s7KPw==
+  dependencies:
+    "@fluent/sequence" "^0.7.0"
+    cached-iterable "^0.3.0"
+    tslib "^2.2.0"
+    vue-demi latest
 
 fraction.js@^4.2.0:
   version "4.2.0"
@@ -1339,6 +1364,11 @@ rimraf@^3.0.2:
   dependencies:
     glob "^7.1.3"
 
+rollup-plugin-fluent-vue@^3.0.1:
+  version "3.0.1"
+  resolved "https://registry.yarnpkg.com/rollup-plugin-fluent-vue/-/rollup-plugin-fluent-vue-3.0.1.tgz#c91e2503efcaf6370d0cc2d074c439c63fcc5415"
+  integrity sha512-VdntCJvcmHa0pgymYGe4i3bF8a+8kIcq1wf0C4WE8CyaXBS3gBD8zU8Z0adZFuoVU7kfDWwCscko0A4Y0yTJUQ==
+
 rollup@^2.75.6:
   version "2.77.2"
   resolved "https://registry.yarnpkg.com/rollup/-/rollup-2.77.2.tgz#6b6075c55f9cc2040a5912e6e062151e42e2c4e3"
@@ -1461,6 +1491,11 @@ tslib@^1.8.1:
   resolved "https://registry.yarnpkg.com/tslib/-/tslib-1.14.1.tgz#cf2d38bdc34a134bcaf1091c41f6619e2f672d00"
   integrity sha512-Xni35NKzjgMrwevysHTCArtLDpPvye8zV/0E4EyYn43P7/7qvQwPh9BGkHewbMulVntbigmcT7rdX3BNo9wRJg==
 
+tslib@^2.2.0:
+  version "2.4.0"
+  resolved "https://registry.yarnpkg.com/tslib/-/tslib-2.4.0.tgz#7cecaa7f073ce680a05847aa77be941098f36dc3"
+  integrity sha512-d6xOpEDfsi2CZVlPQzGeux8XMwLT9hssAsaPYExaQMuYskwb+x1x7J371tWlbBdWHroy99KnVB6qIkUbs5X3UQ==
+
 tsutils@^3.21.0:
   version "3.21.0"
   resolved "https://registry.yarnpkg.com/tsutils/-/tsutils-3.21.0.tgz#b48717d394cea6c1e096983eed58e9d61715b623"
@@ -1521,6 +1556,11 @@ vite@^3.0.0:
     rollup "^2.75.6"
   optionalDependencies:
     fsevents "~2.3.2"
+
+vue-demi@latest:
+  version "0.13.6"
+  resolved "https://registry.yarnpkg.com/vue-demi/-/vue-demi-0.13.6.tgz#f9433cbd75e68a970dec066647f4ba6c08ced48f"
+  integrity sha512-02NYpxgyGE2kKGegRPYlNQSL1UWfA/+JqvzhGCOYjhfbLWXU5QQX0+9pAm/R2sCOPKr5NBxVIab7fvFU0B1RxQ==
 
 vue-eslint-parser@^9.0.0, vue-eslint-parser@^9.0.1:
   version "9.0.3"

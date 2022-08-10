@@ -4,6 +4,11 @@ export enum Gender {
   Female,
 }
 
+export enum Language {
+  EN = 'en',
+  VI = 'vi',
+}
+
 export interface PersonalInfo {
   birthplace: string,
   birthyear: number,

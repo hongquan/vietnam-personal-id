@@ -1,17 +1,16 @@
 <template>
   <div class='max-w-4xl mx-auto flex flex-col h-full px-4'>
-    <header class='bg-white border-b border-gray-200 dark:border-gray-600 dark:bg-gray-800 mb-4'>
-      <h1 class='text-2xl text-slate-900 dark:text-white py-4'>
-        Viet Nam personal ID decoder
-      </h1>
-    </header>
+    <HeaderBar
+      :locale='selectedLocale'
+      @locale-selected='preferLocale($event)'
+    />
     <main class='mx-auto grow sm:w-full'>
       <form @submit.prevent='onSubmit'>
         <div class='sm:flex items-center sm:space-x-4'>
           <label
             for='inp_personal_id'
             class='block'
-          >Personal ID (12-digit)</label>
+          >{{ $t('personal-id-12-digit') }}</label>
           <input
             id='inp_personal_id'
             v-model='personalId'
@@ -30,7 +29,7 @@
     </main>
     <footer class='text-sm p-4 border-t border-gray-200 dark:border-gray-600 flex justify-between'>
       <div>
-        Author: <a
+        {{ $t('author') }}: <a
           href='https://quan.hoabinh.vn'
           class='text-sky-500 dark:text-sky-400'
         >Nguyễn Hồng Quân</a>
@@ -50,13 +49,26 @@
   </div>
 </template>
 
+<fluent locale='en'>
+personal-id-12-digit = Personal ID (12-digit)
+author = Author
+</fluent>
+
+<fluent locale='vi'>
+personal-id-12-digit = Mã định danh cá nhân (12 số)
+author = Tác giả
+</fluent>
+
 <script setup lang='ts'>
 import { ref, watch } from 'vue'
 
-import { PersonalInfo } from '@/models'
+import { Language, PersonalInfo } from '@/models'
+import HeaderBar from '@/components/HeaderBar.vue'
 import ResultDisplay from '@/components/ResultDisplay.vue'
 import { extractBirthplace, extractGender, extractBirthyear } from '@/utils'
+import { preferLocale } from '@/translation'
 
+const selectedLocale = ref(Language.EN)
 const personalId = ref('')
 const personalInfo = ref<PersonalInfo | null>(null)
 

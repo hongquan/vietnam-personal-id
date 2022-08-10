@@ -7,13 +7,13 @@
           scope='col'
           class='py-3 px-6'
         >
-          Info
+          {{ $t('info') }}
         </th>
         <th
           scope='col'
           class='py-3 px-6'
         >
-          Value
+          {{ $t('value') }}
         </th>
       </thead>
       <tbody>
@@ -22,7 +22,7 @@
             scope='row'
             class='py-3 px-6'
           >
-            Birth registration place
+            {{ $t('birth-registration-place') }}
           </th>
           <td class='py-3 px-6'>
             {{ result.birthplace }}
@@ -33,7 +33,7 @@
             scope='row'
             class='py-3 px-6'
           >
-            Birthyear
+            {{ $t('birthyear') }}
           </th>
           <td class='py-3 px-6'>
             {{ result.birthyear }}
@@ -44,7 +44,7 @@
             scope='row'
             class='py-3 px-6'
           >
-            Gender
+            {{ $t('gender') }}
           </th>
           <td class='py-3 px-6'>
             {{ genderDisplay[result.gender] }}
@@ -55,7 +55,7 @@
             scope='row'
             class='py-3 px-6'
           >
-            Random number
+            {{ $t('random-number') }}
           </th>
           <td class='py-3 px-6'>
             {{ result.random_number }}
@@ -65,6 +65,24 @@
     </table>
   </div>
 </template>
+
+<fluent locale='en'>
+info = Info
+value = Value
+birth-registration-place = Birth registration place
+birthyear = Birthyear
+gender = Gender
+random-number = Random number
+</fluent>
+
+<fluent locale='vi'>
+info = Thông tin
+value = Giá trị
+birth-registration-place = Nơi đăng ký khai sinh
+birthyear = Năm sinh
+gender = Giới tính
+random-number = Số ngẫu nhiên
+</fluent>
 
 <script setup lang='ts'>
 import { Gender, PersonalInfo } from '@/models'
